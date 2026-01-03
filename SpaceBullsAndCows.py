@@ -127,7 +127,7 @@ while True:
 
     iStr = input("Do you want to play another game (Y/N)? >")
     
-    if iStr.lower().startswith("y"):
+    if not iStr.lower().startswith("y"):
         print("\n")
         print("BYE!")
         print("\n")
